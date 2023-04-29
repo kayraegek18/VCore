@@ -1,0 +1,4 @@
+# Select the WorldBorderApi Plugin will be in use
+useWorldBorderApi: false
+# Select the ItemsAdder Plugin will be in use
+useItemsAdder: false

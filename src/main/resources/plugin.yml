@@ -1,0 +1,10 @@
+name: VCore
+version: '${project.version}'
+main: net.kayega.core.VCore
+api-version: 1.19
+authors: [Kayega]
+website: https://kayraegek18.github.io
+commands:
+  #vcloud:
+  #  description: VCloud command
+  #  usage: /vcloud <load/reload/unload> <name>
