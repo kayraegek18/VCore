@@ -21,9 +21,9 @@ public class VHologram {
         if (location.getWorld() == null) {
             throw new Exception("VHologram: World required!");
         }
-        for (int i = 0; i < lines.size(); i++) {
+        for (int i = lines.size(); i > 0; i--) {
             ArmorStand hologram = (ArmorStand) location.getWorld().spawnEntity(location.add(0,
-                    (-0.25F * i) + (-1.75F) + (0.1F * i), 0), EntityType.ARMOR_STAND);
+                    -1.975F + (0.1F * i), 0), EntityType.ARMOR_STAND);
             hologram.setVisible(false);
             hologram.setCustomNameVisible(true);
             hologram.setCustomName(lines.get(i));
