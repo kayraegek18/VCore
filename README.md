@@ -39,7 +39,7 @@ Bu proje genel olarak kendi projelerimizi geliştirmek üzere yardımcı bir ara
 ```java
 @VCommandArguments(
   commandName = "test", 
-  isPlayerCommand = true <- optional, 
+  isPlayerCommand = true, <- optional 
   permission = "testperm" <- optional
 )
 public class TestKomut extends VCommand {
@@ -177,7 +177,7 @@ redstone.spawn(player, loc, 1, VParticleData.createDustOptions(Color.BLUE, 1));
 // Spawn block crack particle to a player
 blockCrack.spawn(player, loc, 1, VParticleData.createBlockData(Material.DIAMOND));
 ```
-Çok miktarda parçacık oluşturmanız gerektiğinde, performansları biraz iyileştirmek için ``ParticleType`` ve ``ParticleData`` örneklerini önbelleğe alabilirsiniz.`
+Çok miktarda parçacık oluşturmanız gerektiğinde, performansları biraz iyileştirmek için ``VParticleType`` ve ``VParticleData`` örneklerini önbelleğe alabilirsiniz.`
 
 ### Hologram Oluşturma
 ```java
