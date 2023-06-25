@@ -1,0 +1,4 @@
+name: VCore
+version: '${project.version}'
+main: net.kayega.core.VCore
+api-version: '1.19'
