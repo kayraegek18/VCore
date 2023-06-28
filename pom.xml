@@ -52,6 +52,7 @@
         </resources>
     </build>
 
+	
     <distributionManagement>
         <repository>
             <id>github</id>
@@ -59,25 +60,6 @@
             <url>https://maven.pkg.github.com/kayraegek18/vcore</url>
         </repository>
     </distributionManagement>
-
-    <profile>
-      <id>github</id>
-      <repositories>
-        <repository>
-          <id>central</id>
-          <url>https://repo1.maven.org/maven2</url>
-          <releases><enabled>true</enabled></releases>
-          <snapshots><enabled>true</enabled></snapshots>
-        </repository>
-        <repository>
-          <id>github</id>
-          <name>GitHub kayraegek18 Apache Maven Packages</name>
-          <url>https://maven.pkg.github.com/kayraegek18/VCore</url>
-		  <releases><enabled>true</enabled></releases>
-          <snapshots><enabled>true</enabled></snapshots>
-        </repository>
-      </repositories>
-    </profile>
 
     <repositories>
         <repository>
