@@ -42,11 +42,29 @@ Bu proje genel olarak kendi projelerimizi geliştirmek üzere yardımcı bir ara
 ### Komut oluşturma
 ```java
 @VCommandArguments(
-  commandName = "test", 
+  commandName = "test", <- required
   isPlayerCommand = true, <- optional 
-  permission = "testperm" <- optional
+  permission = "testperm", <- optional
+  hasSubCommand = false <- required if have a sub command
 )
 public class TestKomut extends VCommand {
+  public void run(Player player, String[] args) { 
+    
+  }
+
+  public List<String> tabComplete(CommandSender player, String[] args) { 
+    return null; 
+  }
+}
+```
+### Alt Komut oluşturma
+```java
+@VSubCommandArguments(
+  commandName = "test", <- required
+  commandDescription = "Test command", <- optional
+  commandPermission = "testperm" <- required
+)
+public class TestKomut extends VSubCommand {
   public void run(Player player, String[] args) { 
     
   }
