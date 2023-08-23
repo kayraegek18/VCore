@@ -24,17 +24,17 @@ Bu proje genel olarak kendi projelerimizi geliştirmek üzere yardımcı bir ara
   
 ## Kurulum
 ```xml
-	<repository>
-		  <id>jitpack.io</id>
-      <url>https://jitpack.io</url>
-  </repository>
+<repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</repository>
 ```
 ```xml
-	<dependency>
-	    <groupId>com.github.kayraegek18</groupId>
-	    <artifactId>VCore</artifactId>
-	    <version>Tag</version>
-	</dependency>
+<dependency>
+    <groupId>com.github.kayraegek18</groupId>
+    <artifactId>VCore</artifactId>
+    <version>Tag</version>
+</dependency>
 ```
 
 ## Kullanım/Örnekler
