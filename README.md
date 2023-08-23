@@ -33,7 +33,7 @@ Bu proje genel olarak kendi projelerimizi geliştirmek üzere yardımcı bir ara
 <dependency>
     <groupId>com.github.kayraegek18</groupId>
     <artifactId>VCore</artifactId>
-    <version>Tag</version>
+    <version>VERSION</version>
 </dependency>
 ```
 
