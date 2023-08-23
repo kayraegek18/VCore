@@ -109,6 +109,9 @@ registerCommand(plugin, command, withTabCompleter)
 
 ### Config Dosyası Oluşturma
 ```java
+@VConfigArguments(
+  configFileName = "config" <- don't write .yml at the end
+)
 public class TestConfig extends VConfig {
   public TestConfig(JavaPlugin plugin) {
     super(plugin);
@@ -124,6 +127,7 @@ public void onEnable() {
   // config.getConfig()
   // config.getConfig().addDefault("test", "test")
   // config.saveConfig()
+  // config.getConfig().get("test")
   // config.reloadConfig()
 }
 ...
