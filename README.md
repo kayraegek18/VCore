@@ -24,13 +24,17 @@ Bu proje genel olarak kendi projelerimizi geliştirmek üzere yardımcı bir ara
   
 ## Kurulum
 ```xml
-<dependencies>
-    <dependency>
-        <groupId>net.keyaga</groupId>
-        <artifactId>vcore</artifactId>
-        <version>2.0.0</version>
-    </dependency>
-</dependencies>
+	<repository>
+		  <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+  </repository>
+```
+```xml
+	<dependency>
+	    <groupId>com.github.kayraegek18</groupId>
+	    <artifactId>VCore</artifactId>
+	    <version>Tag</version>
+	</dependency>
 ```
 
 ## Kullanım/Örnekler
