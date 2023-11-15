@@ -9,7 +9,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 
-public final class VCore extends JavaPlugin {
+public class VCore extends JavaPlugin {
 
     private static final String name = "§6VCore";
     private static final String version = "1.0.0";
